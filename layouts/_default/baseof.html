@@ -6,7 +6,9 @@
     </head>
     <body>
         {{ partial "nav.html" }}
-        {{ block "main" . }}
-        {{ end }}
+        <article>
+            {{ block "main" . }}
+            {{ end }}
+        </article>
     </body>
 </html>
