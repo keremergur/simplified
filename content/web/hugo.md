@@ -2,6 +2,11 @@
 title: Hugo
 ---
 
+```js
+hugo new site . // inside-root
+hugo new site root-folder
 ```
-hugo new site .
+
+```js
+hugo server -D // draft mode
 ```
